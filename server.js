@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const rpcWrapperEngine = require('./index.js');
-const PORT = process.env.PORT ||  9000;
+const PORT = process.env.PORT ||  8545;
 const RPC_NODE = process.env.RPC_NODE || 'https://mainnet.infura.io/metamask';
 if (!RPC_NODE) throw new Error('Env var RPC_NODE not specified.');
 
