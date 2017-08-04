@@ -30,6 +30,13 @@ const METHOD_WHITELIST =
     'eth_getUncleCountByBlockNumber',
     'eth_sendRawTransaction',
     'eth_getLogs',
+    'eth_getLogs',
+    'eth_getFilterChanges',
+    'eth_newFilter',
+    'eth_newBlockFilter',
+    'eth_getFilterLogs',
+    'eth_uninstallFilter',
+    'eth_sendTransaction'
     ]
 
 //
